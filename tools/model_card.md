@@ -91,7 +91,8 @@ print(r['choices'][0]['message']['content'])
 ## Links
 
 - **Repo:** [github.com/arman-bd/guppylm](https://github.com/arman-bd/guppylm)
-- **Dataset:** [huggingface.co/datasets/arman-bd/guppylm-60k-generic](https://huggingface.co/datasets/arman-bd/guppylm-60k-generic)
+- **Dataset:** [huggingface.co/datasets/arman-bd/guppylm-60k-generic](https://huggingface.co/datasets/arman-bd/guppylm-60k-generic) · China mirror: [hf-mirror.com/datasets/arman-bd/guppylm-60k-generic](https://hf-mirror.com/datasets/arman-bd/guppylm-60k-generic)
+- **Model mirror:** [hf-mirror.com/arman-bd/guppylm-9M](https://hf-mirror.com/arman-bd/guppylm-9M)
 
 ## License
 

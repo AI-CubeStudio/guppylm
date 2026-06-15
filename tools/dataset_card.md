@@ -78,6 +78,16 @@ print(ds["train"][0])
 # {'input': 'hi guppy', 'output': 'hello. the water is nice today.', 'category': 'greeting'}
 ```
 
+For users in mainland China, set `HF_ENDPOINT` to use [hf-mirror.com](https://hf-mirror.com):
+
+```python
+import os
+os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
+
+from datasets import load_dataset
+ds = load_dataset("arman-bd/guppylm-60k-generic")
+```
+
 ## Generation
 
 Data is synthetically generated using template composition with randomized components
@@ -86,7 +96,8 @@ Data is synthetically generated using template composition with randomized compo
 ## Links
 
 - **Repo:** [github.com/arman-bd/guppylm](https://github.com/arman-bd/guppylm)
-- **Model:** [huggingface.co/arman-bd/guppylm-9M](https://huggingface.co/arman-bd/guppylm-9M)
+- **Model:** [huggingface.co/arman-bd/guppylm-9M](https://huggingface.co/arman-bd/guppylm-9M) · China mirror: [hf-mirror.com/arman-bd/guppylm-9M](https://hf-mirror.com/arman-bd/guppylm-9M)
+- **Dataset mirror:** [hf-mirror.com/datasets/arman-bd/guppylm-60k-generic](https://hf-mirror.com/datasets/arman-bd/guppylm-60k-generic)
 
 ## License
 
